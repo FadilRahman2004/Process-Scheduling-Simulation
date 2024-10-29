@@ -34,6 +34,10 @@ Whether you're a student studying computer science, an educator teaching operati
 ### Initial Screen:
 ![Alt text](/Screenshots/1.png?raw=true "1")
 
+### Field for entering number of processes and choosing the type of scheduling user wants
+#### *Note: A field for entering the time quantum pops if the user chose Round Robin Scheduling* 
+![Alt text](/Screenshots/2.png?raw=true "2")
+
 
 ## Installation
 To run the simulation locally, follow these steps:
