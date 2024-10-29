@@ -34,10 +34,19 @@ Whether you're a student studying computer science, an educator teaching operati
 ### Initial Screen:
 ![Alt text](/Screenshots/1.png?raw=true "1")
 
-### Field for entering number of processes and choosing the type of scheduling user wants
+### Field for entering number of processes and choosing the type of scheduling user wants:
 #### *Note: A field for entering the time quantum pops if the user chose Round Robin Scheduling* 
 ![Alt text](/Screenshots/2.png?raw=true "2")
 
+### Table is created according to number of processes for user to input Arrival Time and Burst Time:
+#### *Note: A column for entering the priority will be added if the user chose either Priority Scheduling*
+![Alt text](/Screenshots/3.png?raw=true "3")
+
+### The user gets back the table with Completion Time, Turn Around Time and Waiting Time calculated:
+![Alt text](/Screenshots/4.png?raw=true "4")
+
+### Also the user gets Gantt Chart with Average Waiting Time and Average Turnaround Time calculated:
+![Alt text](/Screenshots/5.png?raw=true "5")
 
 ## Installation
 To run the simulation locally, follow these steps:
