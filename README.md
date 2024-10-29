@@ -32,7 +32,7 @@ Whether you're a student studying computer science, an educator teaching operati
 
 ## Screenshots
 ### Initial Screen:
-![Alt text](/Screenshots/1.PNG?raw=true "Initial Screen")
+![Alt text](/Screenshots/1.png?raw=true "1")
 
 
 ## Installation
