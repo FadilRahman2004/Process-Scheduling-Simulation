@@ -48,10 +48,3 @@ Whether you're a student studying computer science, an educator teaching operati
 ### Also the user gets Gantt Chart with Average Waiting Time and Average Turnaround Time calculated:
 ![Alt text](/Screenshots/5.png?raw=true "5")
 
-## Installation
-To run the simulation locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/FadilRahman2004/Process-Scheduling-Simulation.git
-   cd Process-Scheduling-Simulation
