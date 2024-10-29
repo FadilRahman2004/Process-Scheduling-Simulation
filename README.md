@@ -30,6 +30,11 @@ This project serves as a practical tool for learning about CPU scheduling concep
 
 Whether you're a student studying computer science, an educator teaching operating systems, or a developer interested in process management, the **Process Scheduling Simulation** project offers a comprehensive and engaging way to explore the fundamentals of CPU scheduling.
 
+## Screenshots
+### Initial Screen:
+![Alt text](/Screenshots/1.PNG?raw=true "Initial Screen")
+
+
 ## Installation
 To run the simulation locally, follow these steps:
 
