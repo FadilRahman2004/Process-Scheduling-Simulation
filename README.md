@@ -15,10 +15,8 @@ This simulator provides a hands-on experience for users to understand the intric
   - **Priority Scheduling**: Offers both preemptive and non-preemptive versions:
     - **Preemptive Priority Scheduling**: Allows higher-priority processes to preempt currently running lower-priority processes.
     - **Non-Preemptive Priority Scheduling**: Once a process starts executing, it cannot be preempted until it finishes.
-
-
   - **Round Robin (RR)**: Allocates a fixed time slice to each process in a cyclic order, ensuring responsiveness in time-sharing systems.
-  - **Priority Scheduling**: Assigns priority levels to processes, allowing higher-priority processes to preempt lower-priority ones.
+  
 
 - **Interactive User Interface**: Users can input their own process data, such as arrival times, burst times, and priorities, to observe how different algorithms handle scheduling in real time.
 
@@ -31,8 +29,6 @@ This simulator provides a hands-on experience for users to understand the intric
 This project serves as a practical tool for learning about CPU scheduling concepts and their implications in operating systems. By visualizing how each algorithm operates, users can gain deeper insights into the trade-offs associated with different scheduling strategies, such as responsiveness versus throughput.
 
 Whether you're a student studying computer science, an educator teaching operating systems, or a developer interested in process management, the **Process Scheduling Simulation** project offers a comprehensive and engaging way to explore the fundamentals of CPU scheduling.
-
-
 
 ## Installation
 To run the simulation locally, follow these steps:
