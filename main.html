@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Process Scheduling Simulation</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Process Scheduling Simulation</h1>
+        <p>Interactive Scheduling Simulator with Gantt Chart Visualization</p>
+    </div>
+    <div class="container">        
+        <label for="numProcesses">Number of Processes:</label>
+        <input type="number" id="numProcesses" min="1" required>
+        
+        <label for="schedulingType">Scheduling Type:</label>
+        <select id="schedulingType" onchange="showPriorityType()">
+            <option value="FCFS">FCFS</option>
+            <option value="SJF">SJF</option>
+            <option value="SRTF">SRTF</option>
+            <option value="Priority">Priority</option>
+            <option value="RoundRobin">Round Robin</option>
+        </select>
+
+        <div id="priorityTypeGroup" style="display:none;">
+            <label for="priorityType">Priority Type:</label>
+            <select id="priorityType">
+                <option value="non-preemptive">Non-Preemptive</option>
+                <option value="preemptive">Preemptive</option>
+            </select>
+        </div>
+
+        <div id="quantumGroup" style="display:none;">
+            <label for="timeQuantum">Time Quantum:</label>
+            <input type="number" id="timeQuantum" min="1">
+        </div>
+
+        <button onclick="createProcessTable()">Create Table</button>
+
+        <div id="processTableContainer"></div>
+
+        <button id="calculateButton" style="display:none;" onclick="calculateScheduling()">Calculate Scheduling</button>
+
+        <div id="ganttChartContainer">
+            <h2>Gantt Chart</h2>
+            <div class="gantt-grid"></div>
+            <div class="time-markers"></div>
+            <div class="process-bars"></div>
+            
+            
+        </div>
+
+       
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Fadil Rahman. All rights reserved.</p>
+    </div>
+    
+    <script src="js/main.js"></script>
+    <script src="js/Algorithms/fcfs.js"></script>
+    <script src="js/Algorithms/sjf.js"></script>
+    <script src="js/Algorithms/srtf.js"></script>
+    <script src="js/Algorithms/priority.js"></script>
+    <script src="js/Algorithms/roundRobin.js"></script>
+    <script src="js/ganttChart.js"></script>
+</body>
+</html>
