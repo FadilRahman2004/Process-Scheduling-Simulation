@@ -1,8 +1,6 @@
 # Process-Scheduling-Simulation
 Interactive Scheduling Simulator with Gantt Chart Visualization
 
-# Process Scheduling Simulation
-
 ## Overview
 This is an interactive CPU scheduling simulator that visualizes various CPU scheduling algorithms. It includes a Gantt chart simulation to help users understand how different scheduling methods affect process execution.
 
